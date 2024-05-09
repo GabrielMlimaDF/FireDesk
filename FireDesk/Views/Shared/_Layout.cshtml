@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FireDesk</title>
+
+    <link rel="icon" href="img/favicon.svg" type="svg+xml">
+    <link rel="stylesheet" type="text/css" href="~/css/site.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+</head>
+<body>
+
+    @Html.Partial("_MenuSuperior")
+
+    <div class="header">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="footer1">
+            &copy; 2023 - FireDesk - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/menususpenso.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

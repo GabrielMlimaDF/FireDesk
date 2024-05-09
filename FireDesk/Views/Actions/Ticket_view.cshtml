@@ -1,0 +1,42 @@
+﻿@model FireDesk.Models.ViewModels.TicketsViewModel
+
+
+@foreach (var item in Model.Tickets)
+{
+    <div class="container-list">
+        <div class="list-content">
+            <div class="grid-list">
+                <div class="content-group div-status">
+                    @if (item.Status == FireDesk.Models.Enums.DeskStatus.Aberto)
+                    {
+                        <span class="p-list-status" style="background:#00c70f"></span>
+                    }
+                    else if (item.Status == FireDesk.Models.Enums.DeskStatus.Pendente)
+                    {
+                        <span class="p-list-status" style="background:#e2e504"></span>
+                    }
+                    else
+                    {
+                        <span class="p-list-status" style="background:#3d3d3d"></span>
+                    }
+
+                    <p class="p-list">ID: @item.TicketID</p>
+                    <p>Status: @item.Status</p>
+                </div>
+                <div class="content-group div-assunto">
+                    <p>Assunto:</p>
+                    <p>@item.Assunto</p>
+                </div>
+                <div class="content-group">
+                    <p>Providenciar até:</p>
+                    <p>@item.DataProv</p>
+                </div>
+                <div class="content-group">
+                    <p>Técnico Responsável:</p>
+                    <p>@item.Tecnicos.NomeTecnico</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

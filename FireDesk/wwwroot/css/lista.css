@@ -1,0 +1,50 @@
+﻿.container-list {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.list-content {
+    padding: 20px 20px;
+    background: #fff;
+       border-radius: 5px;
+    border: 1px solid #dddddd;
+}
+
+.grid-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 10px 10px;
+    justify-content:space-between;
+  
+ 
+}
+.content-group {
+    display: flex;
+    flex-direction:column;
+       padding: 2px;
+}
+.p-list{
+    position:relative;
+}
+.p-list-status {
+    width: 10px;
+    height: 10px;
+    margin-bottom: 5px;
+}
+.div-assunto{
+    width:250px;
+}
+.div-status{
+    width:120px;
+}
+.status-aberto{
+    background:#04b022;
+}
+.status-pendente {
+    background: #ffd800;
+}
+.status-fechado {
+    background: #808080;
+}

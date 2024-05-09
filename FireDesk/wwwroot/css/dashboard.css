@@ -1,0 +1,83 @@
+﻿.container-dashboard {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    position: relative;
+}
+
+p#cd-01 {
+    font-size: 1.25rem;
+}
+
+span#s-01 {
+    font-size: 1.25rem;
+}
+
+.dashboard-01 {
+    display: inline-block;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.container-painel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.painel {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: .1rem;
+}
+
+.div-left-painel {
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    height: 200px;
+    background: #2e854a;
+    padding: 35px 30px;
+    margin-top: 15px;
+}
+
+.div-right-painel {
+    width: 450px;
+    height: 200px;
+    background: #45047e;
+    padding: 35px 30px;
+    margin-top: 15px;
+}
+
+h3#d-01 {
+    color: #808080;
+    text-transform: uppercase;
+}
+
+.div-left-painel h3 {
+    color: #fff;
+}
+
+h3#d-02 {
+    color: #808080;
+    text-transform: uppercase;
+}
+
+.div-right-painel h3 {
+    color: #fff;
+}
+
+.btn-chamados {
+    margin-top: 7rem;
+}
+
+    .btn-chamados a {
+        border: solid 1px;
+        padding: 10px;
+        text-transform: uppercase;
+        border-color: #fff;
+        color: #fff;
+    }

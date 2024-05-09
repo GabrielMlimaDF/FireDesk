@@ -1,0 +1,99 @@
+﻿<h2 id="h01-chamados">Gerenciamento de Chamados</h2>
+<div class="items-display">
+    <input id="termo" type="text" class="input-geral input-pesquisa" placeholder="Digite um termo para a pesquisa" />
+    <a onclick="mostrarModal()" class="btn-nvc btn-geral">Novo Chamado</a>
+</div>
+<div id="desk-list">
+        @Html.Partial("Ticket_view")
+       </div>
+
+<div id="modalOverlay" class="modal-overlay"></div>
+
+<div id="modal" class="container-forms">
+    <div class="top-title">
+        <h2>Abertura de chamado</h2>
+        <span onclick="fecharModal()"><img src="~/img/closeX.svg" /></span>
+    </div>
+    <div class="alert-box alert-box-info">
+        <p>Ao cadastrar um novo chamado, a sincronização será automática e a lista será atualizada em tempo real para o técnico.</p><br>
+    </div>
+    <div class="form-chamados">
+        <form id="desk">
+            <label for="Assunto">Assunto:</label>
+            <input type="text" class="input-geral input-chamados" id="Assunto" name="Assunto" maxlength="100" required>
+                       <div class="select2">
+                <div id="category-select">
+                    <label for="options-view-button">Técnicos</label>
+                    <input type="checkbox" id="options-view-button" required/>
+                    <div id="select-button">
+                        <div id="selected-value">Selecione o técnico</div>
+                        <div id="chevrons">
+                            <i data-lucide="chevron-down"></i>
+                            <i data-lucide="chevron-up"></i>
+                        </div>
+                    </div>
+                </div>
+                <div id="options-list">
+                    <div class="options-search">
+                        <input type="text" class="input-geral input-search" id="search-select" />
+                        <ul id="options">
+                            @foreach (var items in ViewBag.Tecnicos)
+                            {
+                                <li class="option">
+                                    <input type="radio" name="TecnicoId" value="@items.TecnicoId" data-label="@items.NomeTecnico" />
+                                    <span class="label">@items.NomeTecnico</span>
+                                    <i data-lucide="check"></i>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <label for="DataProv">Providenciar até:</label>
+            <input type="date" class="input-geral input-chamados" id="DataProv" name="DataProv" required>
+
+            <span>Prioridade:</span>
+            <div class="checkbox-prioridade">
+                <div class="options-prioridade">
+                    <div class="box-option">
+                        <input type="radio" name="Prioridade" id="Normal" value="0" required>
+                    </div>
+                    <label for="Normal">Normal</label>
+                </div>
+                <div class="options-prioridade">
+                    <div class="box-option">
+                        <input type="radio" name="Prioridade" id="Moderada" value="1" required>
+                    </div>
+                    <label for="Moderada">Moderada</label>
+                </div>
+                <div class="options-prioridade">
+                    <div class="box-option">
+                        <input type="radio" name="Prioridade" id="Urgente" value="2" required>
+                    </div>
+                    <label for="Urgente">Urgente</label>
+                </div>
+            </div>
+            <label for="Descricao">Descrição:</label>
+            <textarea class="textarea-chamados input-chamados" id="Descricao" name="Descricao" maxlength="1200"></textarea>
+            <div class="container-btn">
+                <a id="btn-submit" class="btn-nvc btn-geral">Salvar</a>
+                <a class="btn-cancelar btn-nvc btn-geral">Cancelar</a>
+            </div>
+
+        </form>
+
+    </div>
+
+
+</div>
+
+@section Scripts {
+    <script src="~/js/actions/formchamados.js"></script>
+    <script src="~/js/site.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+}

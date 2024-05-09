@@ -1,0 +1,79 @@
+﻿.header{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 25px 20px;
+    }
+.menu-sup {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu a {
+    color: #141414;
+}
+
+.conteiner-header {
+    -webkit-box-shadow: 0 3px 6px -6px #777;
+    -moz-box-shadow: 0 3px 6px -6px #777;
+    box-shadow: 0 3px 6px -6px #777;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+    .header-menu a {
+        font-size: 1.125rem;
+        line-height: 1.3;
+        padding: 10px 20px;
+        background: transparent;
+        border-radius: 5px;
+        display: block;
+    }
+
+.menu-suspenso-gestao {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background: #fff;
+    top: 11%;
+    left: 18%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.gestao-chamados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.fill-div {
+    display: block;
+}
+
+.div-icons {
+    padding: 4px 4px;
+}
+
+.div-texto p {
+    max-width: 25ch;
+    line-height: 1.25rem;
+}

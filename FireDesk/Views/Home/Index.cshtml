@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-dashboard">
+    <div>
+        <span class="dashboard-01">Um resumo do dia </span>
+        <p id="cd-01"><strong>Olá, Gabriel M***</strong></p>
+        <p>@DateTime.Now.ToString("dd/MM/yyyy")</p>
+        <p><strong>(Total de chamados em operação no sistema @ViewBag.TicketsTotalView)</strong></p>
+    </div>
+</div>
+<div class="container-painel">
+    <div class="painel">
+        <h3 id="d-01">Todos os chamados em aberto</h3>
+        <div class="div-left-painel">
+            <div>
+                <h3>Chamados Abertos:</h3>
+                @if (ViewBag.TicketsAbertoView == 0)
+                {
+                    <h3>Nenhum chamado em aberto </h3>
+                }
+                else
+                {
+                    @if (ViewBag.TicketsAbertoView == 1)
+                    {
+                        <h3>@ViewBag.TicketsAbertoView chamado no sistema </h3>
+                    }
+                    else
+                    {
+                        <h3>@ViewBag.TicketsAbertoView chamados no sistema </h3>
+                    }
+                    <div class="btn-chamados">
+                        <a class="btn-ch-aberto" asp-controller="Actions" asp-action="Index">Ver Chamados   </a>
+                    </div>
+                }
+
+            </div>
+
+        </div>
+    </div>
+    <div class="painel">
+        <h3 id="d-02">Todos os chamados em andamento</h3>
+        <div class="div-right-painel">
+            <h3>Chamados pendentes:</h3>
+            @if (ViewBag.TicketsPendenteView == 0)
+            {
+                <h3>Nenhum chamado pendente.</h3>
+            }
+            else
+            {
+                @if (ViewBag.TicketsPendenteView == 1)
+                {
+                    <h3>@ViewBag.TicketsPendenteView chamado no sistema </h3>
+                }
+                else
+                {
+                    <h3>@ViewBag.TicketsPendenteView chamados no sistema </h3>
+                }
+                <div class="btn-chamados">
+                    <a class="btn-ch-aberto" asp-controller="Actions" asp-action="Index">Ver Chamados   </a>
+                </div>
+            }
+
+        </div>
+    </div>
+</div>
