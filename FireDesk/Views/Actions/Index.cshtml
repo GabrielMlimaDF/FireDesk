@@ -1,11 +1,28 @@
 ﻿<h2 id="h01-chamados">Gerenciamento de Chamados</h2>
-<div class="items-display">
-    <input id="termo" type="text" class="input-geral input-pesquisa" placeholder="Digite um termo para a pesquisa" />
-    <a onclick="mostrarModal()" class="btn-nvc btn-geral">Novo Chamado</a>
+
+<div class="container-list">
+    <div class="list-content">
+        <div class="grid-list">
+
+            <div class="items-display">
+                <div class="custom-checkbox">
+                    <label>
+                        <input type="checkbox" id="checkbox-todos" />
+                        <span>
+                            Selecionar todos da página
+                        </span>
+                    </label>
+                </div>
+                <input id="termo" type="text" class="input-geral input-pesquisa" placeholder="Informe um ID, nome do cliente ou assunto" />
+                <a class="btn-nvc btn-geral before-filter" id="btnFiltrar"@*  href=" @Url.Action("Index","Actions",new{termo = "a"})" *@>Filtrar</a>
+                <button onclick="mostrarModal()" class="btn-nvc btn-geral before-add">Novo Chamado</button>
+            </div>
+        </div>
+    </div>
 </div>
 <div id="desk-list">
-        @Html.Partial("Ticket_view")
-       </div>
+    @Html.Partial("Ticket_view")
+</div>
 
 <div id="modalOverlay" class="modal-overlay"></div>
 
@@ -21,10 +38,10 @@
         <form id="desk">
             <label for="Assunto">Assunto:</label>
             <input type="text" class="input-geral input-chamados" id="Assunto" name="Assunto" maxlength="100" required>
-                       <div class="select2">
+            <div class="select2">
                 <div id="category-select">
                     <label for="options-view-button">Técnicos</label>
-                    <input type="checkbox" id="options-view-button" required/>
+                    <input type="checkbox" id="options-view-button" required />
                     <div id="select-button">
                         <div id="selected-value">Selecione o técnico</div>
                         <div id="chevrons">
@@ -92,6 +109,7 @@
     <script src="~/js/actions/formchamados.js"></script>
     <script src="~/js/site.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="~/js/actions/filtro.js"></script>
     <script>
         lucide.createIcons();
     </script>

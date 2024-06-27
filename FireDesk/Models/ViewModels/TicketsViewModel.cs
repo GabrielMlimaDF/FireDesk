@@ -2,7 +2,7 @@
 {
     public class TicketsViewModel
     {
-        public required ICollection<TicketsModel> Tickets { get; set; }
-        
+        public ICollection<TicketsModel>? Tickets { get; set; }
+        public int? TotalRegistros { get; set; }
     }
 }

@@ -3,7 +3,6 @@
     flex-direction: row;
     max-width: 1450px;
     gap: 15px;
-    margin-top: 30px;
     align-items: center;
 }
 
@@ -33,25 +32,43 @@
     color: #fff;
     padding: 12px !important;
     border: #609;
-}
+   }
+
+.btn-nvc-roxo {
+    display: flex;
+    align-items: center;
+    background: #609;
+    color: #fff;
+    padding: 12px !important;
+    border: #609;
+ }
 
 .btn-cancelar {
     background: #fff0 !important;
     color: #609 !important;
     border: solid 1px #609 !important;
+    cursor:pointer;
 }
 
     .btn-cancelar::before {
         background-image: url(../img/cancel.svg) !important;
     }
 
-.btn-nvc::before {
+.before-add::before {
     content: "";
     display: inline-block;
     margin-right: 12px;
     height: 24px;
     width: 24px;
     background-image: url(../img/Add1.svg);
+}
+.before-filter::before {
+    content: "";
+    display: inline-block;
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+    background-image: url(../img/Filter.svg);
 }
 
 #termo::placeholder {
@@ -362,7 +379,7 @@ select {
     background: #fff;
     align-items: center;
     padding-left: 10px;
-    height:100px;
+    height: 100px;
 }
 
     .status-loading img {
@@ -373,27 +390,27 @@ select {
     .status-loading span {
         width: 70%;
     }
+
 .view-list {
-    display:block;
-    cursor:pointer;
+    display: block;
+    cursor: pointer;
     background: #fff;
-    border:dashed 1px #609;
-    margin-bottom:5px;
-    padding:10px 10px;
+    border: dashed 1px #609;
+    margin-bottom: 5px;
+    padding: 10px 10px;
 }
+
 .content-list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction:row;
+    flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    gap:15px;
-}
-.etiqueta-aberto{
-    padding:6px;
-    background:#0fbd02;
-    
-    
+    gap: 15px;
 }
 
+.etiqueta-aberto {
+    padding: 6px;
+    background: #0fbd02;
+}

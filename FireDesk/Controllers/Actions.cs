@@ -7,56 +7,73 @@ using HtmlTags.Reflection.Expressions;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
+using System.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace FireDesk.Controllers
 {
-
     public class Actions : Controller
     {
         private readonly TicketServices _ticketsServices;
         private readonly TecnicosServices _tecnicosServices;
-        public Actions(TicketServices ticketServices, TecnicosServices tecnicosServices)
+        private readonly Context _context;
+
+        public Actions(TicketServices ticketServices, TecnicosServices tecnicosServices, Context context)
         {
             _ticketsServices = ticketServices;
             _tecnicosServices = tecnicosServices;
+            _context = context;
         }
 
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Filtro([FromQuery] FiltroModel filtroModel)
+        {
+            try
+            {
+                return null;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
 
+        [HttpGet]
+        public async Task<IActionResult> Index([FromQuery] FiltroModel filtroModel)
         {
             try
             {
                 ViewBag.Tecnicos = await _tecnicosServices.FindAllAsync();
-                var list = await _ticketsServices.FindAllAsync();
-                var viewModel = new TicketsViewModel { Tickets = list };
-                return View(viewModel);
+                var filtro = await _context.Ticket.Include(x => x.Tecnicos).OrderByDescending(x => x.TicketID)
+                .AsNoTracking()
+                .Skip(filtroModel.Page * filtroModel.Take)
+                .Take(filtroModel.Take)
+                .ToListAsync();
+                var viewModelLista = new TicketsViewModel { Tickets = filtro, TotalRegistros = await _ticketsServices.AllTicketsAsync() };
+                return View(viewModelLista);
             }
             catch (Exception)
             {
                 return RedirectToAction(nameof(Error), new { message = "Erro de chamada de dados!" });
             }
-
         }
+
         [HttpGet]
         [Route("ticket/get/{id:int}")]
         public async Task<IActionResult> GetId(int id)
 
         {
             return View();
-
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateTicket(TicketsModel ticketsModel)
         {
-
             if (!ModelState.IsValid)
             {
-
                 foreach (var key in ModelState.Keys)
                 {
                     var errors = ModelState[key].Errors;
@@ -70,10 +87,7 @@ namespace FireDesk.Controllers
                         }
                     }
                 }
-
-
             }
-
 
             try
             {
@@ -83,10 +97,9 @@ namespace FireDesk.Controllers
             catch (TicketException e)
             {
                 return Json(new { erro = true, Resultado = e });
-
             }
-
         }
+
         public IActionResult Error(string message)
         {
             var viewModel = new ErrorViewModel
@@ -96,6 +109,5 @@ namespace FireDesk.Controllers
             };
             return View(viewModel);
         }
-
     }
 }

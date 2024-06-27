@@ -6,7 +6,7 @@
 .list-content {
     padding: 20px 20px;
     background: #fff;
-       border-radius: 5px;
+    border-radius: 5px;
     border: 1px solid #dddddd;
 }
 
@@ -16,35 +16,53 @@
     flex-wrap: wrap;
     gap: 50px;
     padding: 10px 10px;
-    justify-content:space-between;
-  
- 
+    justify-content: space-between;
 }
+
 .content-group {
     display: flex;
-    flex-direction:column;
-       padding: 2px;
+    flex-direction: column;
+    padding: 2px;
 }
-.p-list{
-    position:relative;
+
+.p-list {
+    position: relative;
 }
+
 .p-list-status {
     width: 10px;
     height: 10px;
     margin-bottom: 5px;
 }
-.div-assunto{
-    width:250px;
+
+.div-assunto {
+    width: 450px;
 }
-.div-status{
-    width:120px;
+
+.div-status {
+    width: 120px;
 }
-.status-aberto{
-    background:#04b022;
+
+.status-aberto {
+    background: #04b022;
 }
+
 .status-pendente {
     background: #ffd800;
 }
+
 .status-fechado {
     background: #808080;
+}
+
+.registros {
+    display: flex;
+   flex-direction:row;
+   gap:12px;
+   margin-top:5px;
+}
+.content-registros{
+        display:flex;
+    flex-direction:row;
+    gap:1px;
 }

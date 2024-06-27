@@ -6,6 +6,7 @@
     <div class="container-list">
         <div class="list-content">
             <div class="grid-list">
+                <input type="checkbox" />
                 <div class="content-group div-status">
                     @if (item.Status == FireDesk.Models.Enums.DeskStatus.Aberto)
                     {
@@ -39,4 +40,25 @@
         </div>
     </div>
 }
+<div class="registros">
+    <span class="btn-nvc-roxo">Total de Registros: @Model.TotalRegistros</span>
+    <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions")">Primeira Página</a>
+    <div class="content-registros">
+        @if (Model.TotalRegistros > 0)
+        {
+            var Resultpage = (double)Model.TotalRegistros / 5.0;
+            var InterPage = Math.Ceiling(Resultpage);
+
+            @for (int i = 1; i < InterPage; i++)
+            {
+
+                <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{page = i})">@i</a>
+                
+            }
+        }
+       
+
+    </div>
+</div>
+
 
