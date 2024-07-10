@@ -14,7 +14,7 @@
                     </label>
                 </div>
                 <input id="termo" type="text" class="input-geral input-pesquisa" placeholder="Informe um ID, nome do cliente ou assunto" />
-                <a class="btn-nvc btn-geral before-filter" id="btnFiltrar"@*  href=" @Url.Action("Index","Actions",new{termo = "a"})" *@>Filtrar</a>
+                <a class="btn-nvc btn-geral before-filter" id="btnFiltrar" href=" @Url.Action("Index","Actions",new{termo = Model.Termo @* revisar aqui *@})">Filtrar</a>
                 <button onclick="mostrarModal()" class="btn-nvc btn-geral before-add">Novo Chamado</button>
             </div>
         </div>

@@ -7,6 +7,7 @@ using HtmlTags.Reflection.Expressions;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.Elfie.Serialization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
@@ -29,31 +30,33 @@ namespace FireDesk.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Filtro([FromQuery] FiltroModel filtroModel)
-        {
-            try
-            {
-                return null;
-            }
-            catch (Exception)
-            {
-                throw;
-            }
-        }
-
         [HttpGet]
         public async Task<IActionResult> Index([FromQuery] FiltroModel filtroModel)
         {
+
             try
             {
                 ViewBag.Tecnicos = await _tecnicosServices.FindAllAsync();
-                var filtro = await _context.Ticket.Include(x => x.Tecnicos).OrderByDescending(x => x.TicketID)
-                .AsNoTracking()
-                .Skip(filtroModel.Page * filtroModel.Take)
-                .Take(filtroModel.Take)
-                .ToListAsync();
-                var viewModelLista = new TicketsViewModel { Tickets = filtro, TotalRegistros = await _ticketsServices.AllTicketsAsync() };
-                return View(viewModelLista);
+                if (filtroModel.Termo != null)
+                {
+                    var t = await _ticketsServices.Filtrar(filtroModel);
+                    var paginar = await _ticketsServices.Paginar(filtroModel, t);
+                    var viewModelLista = new TicketsViewModel { Tickets = paginar, TotalRegistros = t.Count(),TermoCorrente = filtroModel.Termo };
+                    
+                    return View(viewModelLista);
+                }
+                else
+                {
+                    var filtro = await _context.Ticket.Include(x => x.Tecnicos).Where(x => x.TecnicoId == 1).OrderByDescending(x => x.TicketID)
+                    .AsNoTracking().ToListAsync();
+                    var paginar = await _ticketsServices.Paginar(filtroModel, filtro);
+                    var viewModelLista = new TicketsViewModel { Tickets = paginar, TotalRegistros = await _ticketsServices.AllTicketsAsync() };
+                    return View(viewModelLista);
+
+                }
+
+
+
             }
             catch (Exception)
             {

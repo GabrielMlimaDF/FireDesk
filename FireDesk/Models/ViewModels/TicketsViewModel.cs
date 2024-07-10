@@ -4,5 +4,6 @@
     {
         public ICollection<TicketsModel>? Tickets { get; set; }
         public int? TotalRegistros { get; set; }
+        public string? TermoCorrente{ get; set; }
     }
 }

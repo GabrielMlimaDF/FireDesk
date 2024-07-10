@@ -25,8 +25,8 @@ namespace FireDesk.Controllers
         {
 
             var count = await _ticketServices.FindAllAsync();
-            ViewBag.TicketsAbertoView = count.Where(x=>x.Status == DeskStatus.Aberto).Count();
-            ViewBag.TicketsPendenteView = count.Where(x=>x.Status == DeskStatus.Pendente).Count();
+            ViewBag.TicketsAbertoView = count.Where(x=>x.Status == DeskStatus.Aberto).Where(x=>x.TecnicoId==1).Count();
+            ViewBag.TicketsPendenteView = count.Where(x => x.Status == DeskStatus.Pendente).Where(x => x.TecnicoId == 1).Count();
             ViewBag.TicketsTotalView = (ViewBag.TicketsAbertoView)+(ViewBag.TicketsPendenteView);
                 return View();
         }

@@ -3,7 +3,7 @@ const btnFiltrar = document.querySelector('#btnFiltrar');
 
 function filtraTermo() {
     $.ajax({
-        url: '/Filtro',
+        url: 'Actions/Filtro',
         data: { termo: termoFiltro.value },
         type: 'GET',
         success: function () {

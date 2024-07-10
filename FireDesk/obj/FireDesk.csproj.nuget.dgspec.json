@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrativo\\source\\repos\\Firedesk1\\FireDesk\\FireDesk.csproj": {}
+    "C:\\Users\\gabri\\source\\repos\\Firedesk\\FireDesk\\FireDesk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrativo\\source\\repos\\Firedesk1\\FireDesk\\FireDesk.csproj": {
+    "C:\\Users\\gabri\\source\\repos\\Firedesk\\FireDesk\\FireDesk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrativo\\source\\repos\\Firedesk1\\FireDesk\\FireDesk.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\Firedesk\\FireDesk\\FireDesk.csproj",
         "projectName": "FireDesk",
-        "projectPath": "C:\\Users\\Administrativo\\source\\repos\\Firedesk1\\FireDesk\\FireDesk.csproj",
-        "packagesPath": "C:\\Users\\Administrativo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrativo\\source\\repos\\Firedesk1\\FireDesk\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\source\\repos\\Firedesk\\FireDesk\\FireDesk.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\source\\repos\\Firedesk\\FireDesk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrativo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
