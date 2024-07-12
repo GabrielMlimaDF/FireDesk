@@ -4,24 +4,27 @@
 <div class="container-list">
     <div class="list-content">
         <div class="grid-list">
-             @using (Html.BeginForm("Index", "Actions", FormMethod.Get))
-                {
-            <div class="items-display">
-                <div class="custom-checkbox">
-                    <label>
-                        <input type="checkbox" id="checkbox-todos" />
-                        <span>
-                            Selecionar todos da página
-                        </span>
-                    </label>
-                </div>
-               
+            @using (Html.BeginForm("Index", "Actions", FormMethod.Get))
+            {
+                <div class="items-display">
+                    <div class="custom-checkbox">
+                        <label>
+                            <input type="checkbox" id="checkbox-todos" />
+                            <span>
+                                Selecionar todos da página
+                            </span>
+                        </label>
+                    </div>
+
                     @Html.TextBoxFor(x => x.Termo, new { @class = "input-geral input-pesquisa", placeholder = "Informe um ID, nome do cliente ou assunto" })
                     <button class="btn-nvc btn-geral before-filter" type="submit">Filtrar</button>
-                
-                <button onclick="mostrarModal()" class="btn-nvc btn-geral before-add">Novo Chamado</button>
-            </div>
+                  
+                </div>
             }
+
+            <button onclick="mostrarModal()" class="btn-nvc btn-geral before-add">Novo Chamado</button>
+
+            
         </div>
     </div>
 </div>
@@ -114,7 +117,7 @@
     <script src="~/js/actions/formchamados.js"></script>
     <script src="~/js/site.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="~/js/actions/filtro.js"></script>
+
     <script>
         lucide.createIcons();
     </script>

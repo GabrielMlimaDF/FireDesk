@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj": {}
+    "C:\\Users\\Administrativo\\source\\repos\\Firedesk2\\FireDesk\\FireDesk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj": {
+    "C:\\Users\\Administrativo\\source\\repos\\Firedesk2\\FireDesk\\FireDesk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj",
+        "projectUniqueName": "C:\\Users\\Administrativo\\source\\repos\\Firedesk2\\FireDesk\\FireDesk.csproj",
         "projectName": "FireDesk",
-        "projectPath": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj",
+        "projectPath": "C:\\Users\\Administrativo\\source\\repos\\Firedesk2\\FireDesk\\FireDesk.csproj",
         "packagesPath": "C:\\Users\\Administrativo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\obj\\",
+        "outputPath": "C:\\Users\\Administrativo\\source\\repos\\Firedesk2\\FireDesk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrativo\\AppData\\Roaming\\NuGet\\NuGet.Config",

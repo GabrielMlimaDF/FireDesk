@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O4/5ZPjiMGPSgKjL//CM88azK1d/CmNlHyocT0uLSiBFpFexCXGhwJM6GL4gWLizwMPYqMwdIkXnAgoe8fTHcg==",
+  "dgSpecHash": "2eXXYsPEjekCwYbmNHEvOgO/bpxF9jZ5ewY6fO98AfI4LVvG7Y1rX3y11yAZNX8Ljoe23NJpYtVKafD68o903A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj",
+  "projectFilePath": "C:\\Users\\Administrativo\\source\\repos\\Firedesk2\\FireDesk\\FireDesk.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrativo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrativo\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
