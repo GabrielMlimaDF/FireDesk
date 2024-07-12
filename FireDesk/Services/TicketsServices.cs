@@ -37,11 +37,9 @@ namespace FireDesk.Services
             int termon;
             if (int.TryParse(termo, out termon))
             {
-
                 var listaz = lista.Where(x => x.TicketID == termon).ToList();
 
                 return listaz;
-
             }
             else
             {
@@ -51,16 +49,16 @@ namespace FireDesk.Services
                 .ToList();
                 return filtro;
             }
-
-
         }
-        public async Task<List<TicketsModel>> Paginar(FiltroModel filtroModel, List<TicketsModel>ticketsModels)
+
+        public async Task<List<TicketsModel>> Paginar(FiltroModel filtroModel, List<TicketsModel> ticketsModels)
         {
             var a = ticketsModels
                     .Skip(filtroModel.Page * filtroModel.Take)
                     .Take(filtroModel.Take).ToList();
             return a;
         }
+
         public async Task<int> AllTicketsAsync()
         {
             try

@@ -1,9 +1,11 @@
-﻿<h2 id="h01-chamados">Gerenciamento de Chamados</h2>
+﻿@model FireDesk.Models.ViewModels.TicketsViewModel
+<h2 id="h01-chamados">Gerenciamento de Chamados</h2>
 
 <div class="container-list">
     <div class="list-content">
         <div class="grid-list">
-
+             @using (Html.BeginForm("Index", "Actions", FormMethod.Get))
+                {
             <div class="items-display">
                 <div class="custom-checkbox">
                     <label>
@@ -13,10 +15,13 @@
                         </span>
                     </label>
                 </div>
-                <input id="termo" type="text" class="input-geral input-pesquisa" placeholder="Informe um ID, nome do cliente ou assunto" />
-                <a class="btn-nvc btn-geral before-filter" id="btnFiltrar" href=" @Url.Action("Index","Actions",new{termo = Model.Termo @* revisar aqui *@})">Filtrar</a>
+               
+                    @Html.TextBoxFor(x => x.Termo, new { @class = "input-geral input-pesquisa", placeholder = "Informe um ID, nome do cliente ou assunto" })
+                    <button class="btn-nvc btn-geral before-filter" type="submit">Filtrar</button>
+                
                 <button onclick="mostrarModal()" class="btn-nvc btn-geral before-add">Novo Chamado</button>
             </div>
+            }
         </div>
     </div>
 </div>

@@ -33,7 +33,6 @@ namespace FireDesk.Controllers
         [HttpGet]
         public async Task<IActionResult> Index([FromQuery] FiltroModel filtroModel)
         {
-
             try
             {
                 ViewBag.Tecnicos = await _tecnicosServices.FindAllAsync();
@@ -41,8 +40,8 @@ namespace FireDesk.Controllers
                 {
                     var t = await _ticketsServices.Filtrar(filtroModel);
                     var paginar = await _ticketsServices.Paginar(filtroModel, t);
-                    var viewModelLista = new TicketsViewModel { Tickets = paginar, TotalRegistros = t.Count(),TermoCorrente = filtroModel.Termo };
-                    
+                    var viewModelLista = new TicketsViewModel { Tickets = paginar, TotalRegistros = t.Count(), Termo = filtroModel.Termo };
+
                     return View(viewModelLista);
                 }
                 else
@@ -52,11 +51,7 @@ namespace FireDesk.Controllers
                     var paginar = await _ticketsServices.Paginar(filtroModel, filtro);
                     var viewModelLista = new TicketsViewModel { Tickets = paginar, TotalRegistros = await _ticketsServices.AllTicketsAsync() };
                     return View(viewModelLista);
-
                 }
-
-
-
             }
             catch (Exception)
             {

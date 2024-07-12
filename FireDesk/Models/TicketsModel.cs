@@ -15,21 +15,25 @@ namespace FireDesk.Models
 
         [Required(ErrorMessage = "Descrição sem preencher!")]
         public string? Descricao { get; set; }
+
         [Required(ErrorMessage = "Status sem preencher!")]
         public DeskStatus Status { get; set; }
+
         [Required(ErrorMessage = "Usuario de Abertura sem preencher!")]
         public int UsuarioAberturaId { get; set; }
+
         public int? UsuarioFechamentoId { get; set; } = null;
 
         [Required(ErrorMessage = "Data de providência sem preencher!")]
         [DataType(DataType.DateTime)]
-        public DateTime DataProv { get; set; }
+        public DateTime DataProv { get; set; } = DateTime.Now;
 
         [Required(ErrorMessage = "Prioridade sem preencher!")]
         public PrioridadeStatus Prioridade { get; set; }
+
         [ForeignKey("Tecnicos")]
         public int TecnicoId { get; set; }
-        public TecnicosModel? Tecnicos { get; set; }
 
+        public TecnicosModel? Tecnicos { get; set; }
     }
 }

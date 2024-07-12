@@ -42,7 +42,7 @@
 }
 <div class="registros">
     <span class="btn-nvc-roxo">Total de Registros: @Model.TotalRegistros</span>
-    <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{termo = Model.TermoCorrente})">Primeira Página</a>
+    <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{termo = Model.Termo})">Primeira Página</a>
     <div class="content-registros">
         @if (Model.TotalRegistros > 0)
         {
@@ -52,7 +52,7 @@
             @for (int i = 1; i < InterPage; i++)
             {
 
-                <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{page = i, termo = Model.TermoCorrente})">@i</a>
+                <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{page = i, termo = Model.Termo})">@i</a>
                 
             }
         }
