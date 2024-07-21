@@ -51,11 +51,15 @@
 
             @for (int i = 1; i < InterPage; i++)
             {
-                if (i >= InterPage)
+                if (i == (InterPage-1))
                 {
                     <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{page = i, termo = Model.Termo})">Última</a>
                 }
-                <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{page = i, termo = Model.Termo})">@i</a>
+                else
+                {
+                    <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{page = i, termo = Model.Termo})">@i</a>
+                }
+                
                 
             }
         }

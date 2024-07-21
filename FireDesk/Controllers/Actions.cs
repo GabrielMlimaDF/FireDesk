@@ -46,7 +46,7 @@ namespace FireDesk.Controllers
                 }
                 else
                 {
-                    var filtro = await _context.Ticket.Include(x => x.Tecnicos).Where(x => x.TecnicoId == 1).OrderByDescending(x => x.TicketID)
+                    var filtro = await _context.Ticket.Include(x => x.Tecnicos).OrderByDescending(x => x.TicketID)
                     .AsNoTracking().ToListAsync();
                     var paginar = await _ticketsServices.Paginar(filtroModel, filtro);
                     var viewModelLista = new TicketsViewModel { Tickets = paginar, TotalRegistros = await _ticketsServices.AllTicketsAsync() };

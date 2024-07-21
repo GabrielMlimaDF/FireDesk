@@ -22,7 +22,7 @@ namespace FireDesk.Services
         {
             try
             {
-                return await _context.Ticket.Include(x => x.Tecnicos).Where(x => x.TecnicoId == 1).OrderByDescending(x => x.TicketID).ToListAsync();
+                return await _context.Ticket.Include(x => x.Tecnicos).OrderByDescending(x => x.TicketID).ToListAsync();
             }
             catch (Exception)
             {
