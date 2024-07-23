@@ -26,7 +26,7 @@ namespace FireDesk.Models
 
         [Required(ErrorMessage = "Data de providência sem preencher!")]
         [DataType(DataType.DateTime)]
-        public DateTime DataProv { get; set; } = DateTime.Now;
+        public DateTime? DataProv { get; set; }
 
         [Required(ErrorMessage = "Prioridade sem preencher!")]
         public PrioridadeStatus Prioridade { get; set; }

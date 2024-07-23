@@ -67,32 +67,30 @@ inputElement.addEventListener('input', (e) => {
 let btnSubmit = document.getElementById("btn-submit");
 const url = "/Actions/CreateTicket"
 function save() {
-    debugger;
     fecharModal();
-
     $.ajax({
         url: url,
         type: 'POST',
         data: $('#desk').serialize(),
-
     })
-
-
         .done(function (data) {
-            debugger;
             if (data.erro == true) {
                 const divEspecifica = document.getElementById('modal');
                 const novoHTML = '<div id="b1" class="box-sucess">' +
                     '<div class="sucess-title">Acompanhe o processo</div>' +
                     '<div class="status-loading">' +
                     '<span><strong>' +
-                    
+
                     data.resultado +
                     '</strong></span > ' +
                     '<img src="/img/erro.svg"/>' +
                     '</div>' +
                     '</div>';
                 divEspecifica.insertAdjacentHTML('afterend', novoHTML);
+                setTimeout(function () {
+                    const b = document.querySelector("#b1");
+                    b.remove();
+                }, 5000);
             }
             else {
                 const divEspecifica = document.getElementById('modal');

@@ -63,7 +63,7 @@ namespace FireDesk.Services
         {
             try
             {
-                var linhas = await _context.Ticket.Where(x => x.TecnicoId == 1).AsNoTracking().ToListAsync();
+                var linhas = await _context.Ticket.AsNoTracking().ToListAsync();
                 var allRegistros = linhas.Count();
                 return allRegistros;
             }

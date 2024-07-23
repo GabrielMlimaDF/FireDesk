@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj": {}
+    "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\FireDesk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj": {
+    "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\FireDesk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\FireDesk.csproj",
         "projectName": "FireDesk",
-        "projectPath": "C:\\Users\\gabri\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj",
+        "projectPath": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\FireDesk.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\source\\repos\\FireDesk\\FireDesk\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
