@@ -55,7 +55,8 @@ namespace FireDesk.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("DataProv")
+                    b.Property<DateTime?>("DataProv")
+                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Descricao")
@@ -84,20 +85,52 @@ namespace FireDesk.Migrations
                     b.ToTable("Ticket");
                 });
 
+            modelBuilder.Entity("FireDesk.Models.UsuarioModel", b =>
+                {
+                    b.Property<int>("UsuarioId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UsuarioId"));
+
+                    b.Property<string>("UsuarioCPF")
+                        .IsRequired()
+                        .HasMaxLength(11)
+                        .HasColumnType("nvarchar(11)");
+
+                    b.Property<string>("UsuarioEmail")
+                        .IsRequired()
+                        .HasMaxLength(120)
+                        .HasColumnType("nvarchar(120)");
+
+                    b.Property<string>("UsuarioName")
+                        .IsRequired()
+                        .HasMaxLength(80)
+                        .HasColumnType("nvarchar(80)");
+
+                    b.HasKey("UsuarioId");
+
+                    b.ToTable("Usuarios");
+
+                    b.HasData(
+                        new
+                        {
+                            UsuarioId = 1,
+                            UsuarioCPF = "73282146191",
+                            UsuarioEmail = "gabrieldevbrasilia@gmail.com",
+                            UsuarioName = "Gabriel Matos Lima"
+                        });
+                });
+
             modelBuilder.Entity("FireDesk.Models.TicketsModel", b =>
                 {
                     b.HasOne("FireDesk.Models.TecnicosModel", "Tecnicos")
-                        .WithMany("Tickets")
+                        .WithMany()
                         .HasForeignKey("TecnicoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Tecnicos");
-                });
-
-            modelBuilder.Entity("FireDesk.Models.TecnicosModel", b =>
-                {
-                    b.Navigation("Tickets");
                 });
 #pragma warning restore 612, 618
         }
