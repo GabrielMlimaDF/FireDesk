@@ -20,14 +20,18 @@
         </div>
     </div>
     <div class="gestao-chamados">
-        <div class="div-icons">
-            <a asp-area="" asp-controller="UsuariosController" asp-action="Index"><img src="~/img/usuariosIcon.svg" /></a>
-        </div>
-        <div class="div-texto">
-            <h3>Usuários</h3>
-            <p>Criar e gerenciar usuários do sistema.</p>
-        </div>
-    </div><div class="gestao-chamados">
+        <a asp-controller="Usuarios" asp-action="Index" class="fill-div">
+            <div class="gestao-chamados">
+                <div class="div-icons">
+                    <img src="~/img/usuariosIcon.svg" />
+                </div>
+                <div class="div-texto">
+                    <h3>Usuarios</h3>
+                    <p>Criar e gerenciar usuários do sistema.</p>
+                </div>
+            </div>
+        </a>
+            </div><div class="gestao-chamados">
         <div class="div-icons">
             <a asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/tecnicosIcon.svg" /></a>
         </div>
