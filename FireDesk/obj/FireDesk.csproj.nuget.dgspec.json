@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\FireDesk.csproj": {}
+    "C:\\Users\\gabri\\Source\\Repos\\Firedesk1\\FireDesk\\FireDesk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\FireDesk.csproj": {
+    "C:\\Users\\gabri\\Source\\Repos\\Firedesk1\\FireDesk\\FireDesk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\FireDesk.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Source\\Repos\\Firedesk1\\FireDesk\\FireDesk.csproj",
         "projectName": "FireDesk",
-        "projectPath": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\FireDesk.csproj",
-        "packagesPath": "C:\\Users\\Administrativo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\obj\\",
+        "projectPath": "C:\\Users\\gabri\\Source\\Repos\\Firedesk1\\FireDesk\\FireDesk.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Source\\Repos\\Firedesk1\\FireDesk\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrativo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,9 +40,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
             "Dapper": {
               "target": "Package",
-              "version": "[2.1.28, )"
+              "version": "[2.1.35, )"
             },
             "HtmlTags": {
               "target": "Package",
@@ -54,41 +58,53 @@
             },
             "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[8.0.7, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[8.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.6.2, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.6.2, )"
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.6.2, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.6, )"
+            },
+            "System.Formats.Asn1": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
