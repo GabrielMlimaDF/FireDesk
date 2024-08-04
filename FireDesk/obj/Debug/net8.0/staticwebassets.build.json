@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pB7Jdqy5hcS64xy2KTCqMS4h1ha/7og3iRIvXUqQ1N8=",
+  "Hash": "ls1LeM8MG4xYwQu/W9fAniFKQE9t2wxw+AM5N6vplyQ=",
   "Source": "FireDesk",
   "BasePath": "_content/FireDesk",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\dashboard.css"
+    },
+    {
+      "Identity": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\css\\gestaoUsuarios.css",
+      "SourceId": "FireDesk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\",
+      "BasePath": "_content/FireDesk",
+      "RelativePath": "css/gestaoUsuarios.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\gestaoUsuarios.css"
     },
     {
       "Identity": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\css\\global.css",

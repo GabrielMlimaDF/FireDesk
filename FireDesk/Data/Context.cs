@@ -23,6 +23,7 @@ namespace FireDesk.Data
                     UsuarioCPF = "73282146191",
                     UsuarioEmail = "gabrieldevbrasilia@gmail.com",
                     UsuarioName = "Gabriel Matos Lima",
+                    UsuarioSenha = "123"
                 }
 
                 );

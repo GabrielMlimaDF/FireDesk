@@ -17,7 +17,7 @@ namespace FireDesk.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.3")
+                .HasAnnotation("ProductVersion", "8.0.7")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -108,6 +108,11 @@ namespace FireDesk.Migrations
                         .HasMaxLength(80)
                         .HasColumnType("nvarchar(80)");
 
+                    b.Property<string>("UsuarioSenha")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
+
                     b.HasKey("UsuarioId");
 
                     b.ToTable("Usuarios");
@@ -118,7 +123,8 @@ namespace FireDesk.Migrations
                             UsuarioId = 1,
                             UsuarioCPF = "73282146191",
                             UsuarioEmail = "gabrieldevbrasilia@gmail.com",
-                            UsuarioName = "Gabriel Matos Lima"
+                            UsuarioName = "Gabriel Matos Lima",
+                            UsuarioSenha = "123"
                         });
                 });
 

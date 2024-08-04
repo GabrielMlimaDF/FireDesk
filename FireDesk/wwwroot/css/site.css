@@ -4,6 +4,7 @@
 @import "header.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 @import "lista.css";
+@import "gestaoUsuarios.css"
 
 html{
     font-size: 14px;
