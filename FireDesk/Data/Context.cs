@@ -1,4 +1,5 @@
-﻿using FireDesk.Models;
+﻿using FireDesk.Migrations;
+using FireDesk.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace FireDesk.Data
@@ -25,7 +26,7 @@ namespace FireDesk.Data
                     UsuarioName = "Gabriel Matos Lima",
                     UsuarioSenha = "123",
                     UsuarioTipo = "Admin",
-                    Status = Models.Enums.UsuarioStatus.Ativo
+                    Status = Models.Enums.UsuarioStatus.Ativo,
                 }
 
                 );
