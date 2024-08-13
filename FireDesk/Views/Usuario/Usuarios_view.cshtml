@@ -1,0 +1,68 @@
+﻿@model FireDesk.Models.ViewModels.UsuarioViewModel
+
+
+@foreach (var item in Model.Usuarios)
+{
+   
+    <div class="container-list">
+        <div class="list-content">
+            <div class="grid-list">
+                <input type="checkbox" />
+                <div class="content-group div-status">
+                    @if (item.Status == FireDesk.Models.Enums.UsuarioStatus.Ativo)
+                    {
+                        <span class="p-list-status" style="background:#00c70f"></span>
+                    }
+                    else if(item.Status == FireDesk.Models.Enums.UsuarioStatus.Inativo)
+                    {
+                        <span class="p-list-status" style="background:#e2e504"></span>
+                    }
+
+                    <p class="p-list">ID: @item.UsuarioId</p>
+                    <p>Status: @item.Status</p>
+                </div>
+                <div class="content-group div-assunto">
+                    <p>Email:</p>
+                    <p>@item.UsuarioEmail</p>
+                </div>
+                <div class="content-group">
+                    <p>Nome Usuário:</p>
+                    <p>@item.UsuarioName</p>
+                </div>
+                <div class="content-group">
+                    <p>Tipo:</p>
+                    <p>@item.UsuarioTipo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@* <div class="registros">
+    <span class="btn-nvc-roxo">Total de Registros: @Model.TotalRegistros</span>
+    <a class="btn-nvc-roxo" href=" @Url.Action("Index","Usuario",new{termo = Model.Termo})">Primeira Página</a>
+    <div class="content-registros">
+        @if (Model.TotalRegistros > 0)
+        {
+            var Resultpage = (double)Model.TotalRegistros / 5.0;
+            var InterPage = Math.Ceiling(Resultpage);
+
+            @for (int i = 1; i < InterPage; i++)
+            {
+                if (i == (InterPage-1))
+                {
+                    <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{page = i, termo = Model.Termo})">Última</a>
+                }
+                else
+                {
+                    <a class="btn-nvc-roxo" href=" @Url.Action("Index","Actions",new{page = i, termo = Model.Termo})">@i</a>
+                }
+                
+                
+            }
+        }
+       
+
+    </div>
+</div> *@
+
+

@@ -8,15 +8,18 @@ namespace FireDesk.Controllers
     public class UsuarioController : Controller
     {
         private readonly Context _context;
-   
-        public UsuarioController(Context context)
+        private readonly UsuariosServices _usuariosServices;
+
+        public UsuarioController(Context context, UsuariosServices usuariosServices)
         {
-                      _context = context;
+            _context = context;
+            _usuariosServices = usuariosServices;
         }
         // GET: UsuarioController
         public async Task<ActionResult> Index()
         {
-             return View();
+            var t = await _usuariosServices.FindAllAsync();
+             return View(t);
         }
 
         // GET: UsuarioController/Details/5
@@ -25,7 +28,7 @@ namespace FireDesk.Controllers
             return View();
         }
 
-      
+
         // POST: UsuarioController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -47,12 +50,12 @@ namespace FireDesk.Controllers
             return View();
         }
 
-        
+
         // GET: UsuarioController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
-       
+
     }
 }

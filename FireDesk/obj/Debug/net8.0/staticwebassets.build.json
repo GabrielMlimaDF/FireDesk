@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ls1LeM8MG4xYwQu/W9fAniFKQE9t2wxw+AM5N6vplyQ=",
+  "Hash": "fx5zkSm3oN1w6QWuGaYpNF57pSSeZskTwHXLGkQrO5U=",
   "Source": "FireDesk",
   "BasePath": "_content/FireDesk",
   "Mode": "Default",
@@ -264,6 +264,25 @@
       "OriginalItemSpec": "wwwroot\\img\\Add1.svg"
     },
     {
+      "Identity": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\img\\AddUser.svg",
+      "SourceId": "FireDesk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\",
+      "BasePath": "_content/FireDesk",
+      "RelativePath": "img/AddUser.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\AddUser.svg"
+    },
+    {
       "Identity": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\img\\cancel.svg",
       "SourceId": "FireDesk",
       "SourceType": "Discovered",
@@ -395,6 +414,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\closeX.svg"
+    },
+    {
+      "Identity": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\img\\edit.svg",
+      "SourceId": "FireDesk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\",
+      "BasePath": "_content/FireDesk",
+      "RelativePath": "img/edit.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\edit.svg"
     },
     {
       "Identity": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\img\\erro.svg",

@@ -93,6 +93,9 @@ namespace FireDesk.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UsuarioId"));
 
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
+
                     b.Property<string>("UsuarioCPF")
                         .IsRequired()
                         .HasMaxLength(11)
@@ -113,6 +116,10 @@ namespace FireDesk.Migrations
                         .HasMaxLength(15)
                         .HasColumnType("nvarchar(15)");
 
+                    b.Property<string>("UsuarioTipo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("UsuarioId");
 
                     b.ToTable("Usuarios");
@@ -121,10 +128,12 @@ namespace FireDesk.Migrations
                         new
                         {
                             UsuarioId = 1,
+                            Status = 0,
                             UsuarioCPF = "73282146191",
                             UsuarioEmail = "gabrieldevbrasilia@gmail.com",
                             UsuarioName = "Gabriel Matos Lima",
-                            UsuarioSenha = "123"
+                            UsuarioSenha = "123",
+                            UsuarioTipo = "Admin"
                         });
                 });
 

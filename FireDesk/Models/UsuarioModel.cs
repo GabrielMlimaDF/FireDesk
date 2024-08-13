@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using FireDesk.Models.Enums;
+using System.ComponentModel.DataAnnotations;
 
 namespace FireDesk.Models
 {
@@ -19,5 +20,10 @@ namespace FireDesk.Models
         [Required, MaxLength(15, ErrorMessage = "Senha requerida!")]
         public string? UsuarioSenha { get; set; }
 
+        [Required(ErrorMessage = "Status sem preencher!")]
+        public UsuarioStatus Status { get; set; }
+       
+        [Required(ErrorMessage = "Tipo sem preencher!")]
+        public string? UsuarioTipo { get; set; }
     }
 }

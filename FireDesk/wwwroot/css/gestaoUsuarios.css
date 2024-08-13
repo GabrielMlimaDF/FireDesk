@@ -1,5 +1,42 @@
-﻿box-usuario{
-    width:200px;
-    height:200px;
-    background:#ffffff;
+﻿.flex-usuario {
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    margin-top:40px;
+    margin-bottom:10px;
 }
+.box-usuario{
+    width:200px;
+    height:150px;
+    background:#609;
+    padding:10px;
+    cursor:pointer;
+}
+    .box-usuario h3 {
+        color:#ffff;
+    }
+.before-edit::before {
+    content: "";
+    display: inline-block;
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+    background-image: url(../img/edit.svg);
+}
+.before-addUser::before {
+    content: "";
+    display: inline-block;
+    margin-right: 12px;
+    height: 24px;
+    width: 24px;
+    background-image: url(../img/AddUser.svg);
+}
+.grid-user{
+    display:flex;
+    flex-direction:row;
+    gap:15px;
+}
+.content-btn-left {
+    justify-content: left;
+}
+

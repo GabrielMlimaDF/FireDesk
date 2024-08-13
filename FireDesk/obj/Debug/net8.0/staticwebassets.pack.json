@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\img\\Add1.svg"
     },
     {
+      "Id": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\img\\AddUser.svg",
+      "PackagePath": "staticwebassets\\img\\AddUser.svg"
+    },
+    {
       "Id": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\img\\Filter.svg",
       "PackagePath": "staticwebassets\\img\\Filter.svg"
     },
@@ -91,6 +95,10 @@
     {
       "Id": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\img\\closeX.svg",
       "PackagePath": "staticwebassets\\img\\closeX.svg"
+    },
+    {
+      "Id": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\img\\edit.svg",
+      "PackagePath": "staticwebassets\\img\\edit.svg"
     },
     {
       "Id": "C:\\Users\\gabri\\source\\repos\\Firedesk1\\FireDesk\\wwwroot\\img\\erro.svg",

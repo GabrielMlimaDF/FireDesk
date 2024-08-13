@@ -14,6 +14,7 @@ builder.Services.AddControllersWithViews();
 //builder.Services.AddScoped<ITicketsRepositorio, TicketsRepositorio>();
 builder.Services.AddScoped<TicketServices>();
 builder.Services.AddScoped<TecnicosServices>();
+builder.Services.AddScoped<UsuariosServices>();
 builder.Services.AddDbContext<Context>(op=>op.UseSqlServer(connectionString));
 builder.Services.AddSwaggerGen();
 
