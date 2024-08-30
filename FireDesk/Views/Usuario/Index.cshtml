@@ -8,7 +8,8 @@
 </div>
 <div class="list-content">
     <div class="grid-list">
-        <form action="/Actions" method="get">
+        @using (Html.BeginForm("Index","Usuario", FormMethod.Get))
+        {
             <div class="items-display">
                 <div class="custom-checkbox">
                     <label>
@@ -23,8 +24,9 @@
                 <button class="btn-nvc btn-geral before-filter" type="submit">Filtrar</button>
 
             </div>
-        </form>
-
+            
+        }
+      
     </div>
 </div>
 <div id="desk-list">
