@@ -8,7 +8,7 @@
 </div>
 <div class="list-content">
     <div class="grid-list">
-        @using (Html.BeginForm("Index","Usuario", FormMethod.Get))
+        @using (Html.BeginForm("Index", "Usuario", FormMethod.Get))
         {
             <div class="items-display">
                 <div class="custom-checkbox">
@@ -24,11 +24,26 @@
                 <button class="btn-nvc btn-geral before-filter" type="submit">Filtrar</button>
 
             </div>
-            
+
         }
-      
+
     </div>
-</div>
-<div id="desk-list">
-    @Html.Partial("Usuarios_view")
-</div>
+
+    <div class="modal-overlay" style="display:block;">
+        <div class="container-pop"> 
+        <div class="pop-user">
+            <div class="pop-title">
+                <div class="title-pop">
+                    <h2>Abertura de chamado</h2>
+                </div>
+                <div class="x-pop">
+                    <img onclick="fecharModal()" src="/img/closeX.svg">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="desk-list">
+        @Html.Partial("Usuarios_view")
+    </div>
+

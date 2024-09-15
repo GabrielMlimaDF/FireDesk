@@ -39,4 +39,38 @@
 .content-btn-left {
     justify-content: left;
 }
+.container-pop {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+.pop-user{
+    display:flex;
+    width:500px;
+    height:400px;
+    background:#ffff;
+
+}
+.pop-title{
+    background:#609;
+    display:grid;
+    grid-template-columns:4fr 1fr;
+   height:60px;
+   align-items:center;
+   width: inherit;
+   color:#ffF;
+
+}
+
+.title-pop{
+    padding:0px 20px;
+}
+.x-pop {
+    text-align: -webkit-center;
+    padding: 0px 20px;
+}
+
 

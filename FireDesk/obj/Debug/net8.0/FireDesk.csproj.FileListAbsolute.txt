@@ -2261,3 +2261,7 @@ C:\Users\Administrativo\Source\Repos\Firedesk\FireDesk\bin\Debug\net8.0\Microsof
 C:\Users\Administrativo\Source\Repos\Firedesk\FireDesk\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\Administrativo\Source\Repos\Firedesk\FireDesk\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\Administrativo\Source\Repos\Firedesk\FireDesk\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\gabri\Source\Repos\Firedesk\FireDesk\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\gabri\Source\Repos\Firedesk\FireDesk\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\gabri\Source\Repos\Firedesk\FireDesk\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\gabri\Source\Repos\Firedesk\FireDesk\bin\Debug\net8.0\System.Text.Json.dll
