@@ -2,7 +2,7 @@
 
 <h2 id="h01-chamados">Gerenciamento de usuários</h2>
 <div class="div-flex flex-usuario">
-    <button onclick="" class="btn-nvc btn-geral before-addUser">Novo Usuário</button>
+    <button onclick="mostrarModal()" class="btn-nvc btn-geral before-addUser">Novo Usuário</button>
     <button onclick="" class="btn-nvc btn-geral before-edit">Editar Usuário</button>
     <button onclick="" class="btn-nvc btn-geral before-add">Lista de Usuários</button>
 </div>
@@ -29,8 +29,8 @@
 
     </div>
 
-    <div class="modal-overlay" style="display:block;">
-        <div class="container-pop"> 
+    <div id="modalOverlay" class="modal-overlay" style="display:none;">
+        <div id="modal" class="container-pop"> 
         <div class="pop-user">
             <div class="pop-title">
                 <div class="title-pop">
@@ -40,6 +40,12 @@
                     <img onclick="fecharModal()" src="/img/closeX.svg">
                 </div>
             </div>
+            <div class="form-chamados">
+                <form id="usuarios">
+                        <label for="Assunto">Assunto:</label>
+                        <input type="text" class="input-geral input-chamados" id="Assunto" name="Assunto" maxlength="100" required>
+                </form>
+            </div>
         </div>
         </div>
     </div>
@@ -47,3 +53,6 @@
         @Html.Partial("Usuarios_view")
     </div>
 
+    @section Scripts{
+        <script src="~/js/Usuarios/FormUsuario.js"></script>
+    }

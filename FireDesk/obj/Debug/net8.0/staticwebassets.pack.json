@@ -1,371 +1,375 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FireDesk.bundle.scp.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FireDesk.bundle.scp.css",
       "PackagePath": "staticwebassets\\FireDesk.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\chamados.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\chamados.css",
       "PackagePath": "staticwebassets\\css\\chamados.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\dashboard.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\dashboard.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\gestaoUsuarios.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\gestaoUsuarios.css",
       "PackagePath": "staticwebassets\\css\\gestaoUsuarios.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\global.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\global.css",
       "PackagePath": "staticwebassets\\css\\global.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\header.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\header.css",
       "PackagePath": "staticwebassets\\css\\header.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\lista.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\lista.css",
       "PackagePath": "staticwebassets\\css\\lista.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Add.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Add.svg",
       "PackagePath": "staticwebassets\\img\\Add.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Add1.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Add1.svg",
       "PackagePath": "staticwebassets\\img\\Add1.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\AddUser.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\AddUser.svg",
       "PackagePath": "staticwebassets\\img\\AddUser.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Filter.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Filter.svg",
       "PackagePath": "staticwebassets\\img\\Filter.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Filter1.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Filter1.svg",
       "PackagePath": "staticwebassets\\img\\Filter1.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\FireDesk.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\FireDesk.svg",
       "PackagePath": "staticwebassets\\img\\FireDesk.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Gabriel M.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Gabriel M.svg",
       "PackagePath": "staticwebassets\\img\\Gabriel M.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Pulse-1s-200px.gif",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Pulse-1s-200px.gif",
       "PackagePath": "staticwebassets\\img\\Pulse-1s-200px.gif"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Pulse-1s-200px.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\Pulse-1s-200px.svg",
       "PackagePath": "staticwebassets\\img\\Pulse-1s-200px.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\cancel.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\cancel.svg",
       "PackagePath": "staticwebassets\\img\\cancel.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\chamadoIcon.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\chamadoIcon.svg",
       "PackagePath": "staticwebassets\\img\\chamadoIcon.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\check-1.1s-200px.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\check-1.1s-200px.svg",
       "PackagePath": "staticwebassets\\img\\check-1.1s-200px.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\check-ok-1.1s-200px.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\check-ok-1.1s-200px.svg",
       "PackagePath": "staticwebassets\\img\\check-ok-1.1s-200px.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\check.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\check.svg",
       "PackagePath": "staticwebassets\\img\\check.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\clientesIcon.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\clientesIcon.svg",
       "PackagePath": "staticwebassets\\img\\clientesIcon.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\closeX.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\closeX.svg",
       "PackagePath": "staticwebassets\\img\\closeX.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\edit.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\edit.svg",
       "PackagePath": "staticwebassets\\img\\edit.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\erro.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\erro.svg",
       "PackagePath": "staticwebassets\\img\\erro.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\favicon.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\favicon.svg",
       "PackagePath": "staticwebassets\\img\\favicon.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\gestaoChamados.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\gestaoChamados.svg",
       "PackagePath": "staticwebassets\\img\\gestaoChamados.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\info.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\info.svg",
       "PackagePath": "staticwebassets\\img\\info.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\info2.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\info2.svg",
       "PackagePath": "staticwebassets\\img\\info2.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\tecnicosIcon.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\tecnicosIcon.svg",
       "PackagePath": "staticwebassets\\img\\tecnicosIcon.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\usuariosIcon.svg",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\img\\usuariosIcon.svg",
       "PackagePath": "staticwebassets\\img\\usuariosIcon.svg"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\js\\Actions\\FormChamados.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\js\\Actions\\FormChamados.js",
       "PackagePath": "staticwebassets\\js\\Actions\\FormChamados.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\js\\MenuSuspenso.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\js\\MenuSuspenso.js",
       "PackagePath": "staticwebassets\\js\\MenuSuspenso.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\js\\Usuarios\\FormUsuario.js",
+      "PackagePath": "staticwebassets\\js\\Usuarios\\FormUsuario.js"
+    },
+    {
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\gabri\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Administrativo\\Source\\Repos\\Firedesk\\FireDesk\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

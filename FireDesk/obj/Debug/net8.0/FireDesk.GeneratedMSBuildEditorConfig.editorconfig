@@ -17,79 +17,79 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FireDesk
 build_property.RootNamespace = FireDesk
-build_property.ProjectDir = C:\Users\gabri\Source\Repos\Firedesk\FireDesk\
+build_property.ProjectDir = C:\Users\Administrativo\Source\Repos\Firedesk\FireDesk\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gabri\Source\Repos\Firedesk\FireDesk
+build_property.MSBuildProjectDirectory = C:\Users\Administrativo\Source\Repos\Firedesk\FireDesk
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Actions/Index.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Actions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Actions/Ticket_view.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Actions/Ticket_view.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0aW9uc1xUaWNrZXRfdmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Home/Index.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Shared/Error.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Shared/_MenuSuperior.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Shared/_MenuSuperior.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51U3VwZXJpb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Shared/_MenuSuspensoGestao.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Shared/_MenuSuspensoGestao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW51U3VzcGVuc29HZXN0YW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Create.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb3NNb2RlbHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Delete.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb3NNb2RlbHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Details.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb3NNb2RlbHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Edit.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb3NNb2RlbHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Index.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/TecnicosModels/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVjbmljb3NNb2RlbHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Usuario/Index.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Usuario/Usuarios_view.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Usuario/Usuarios_view.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xVc3Vhcmlvc192aWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/_ViewImports.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/_ViewStart.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/Source/Repos/Firedesk/FireDesk/Views/Shared/_Layout.cshtml]
+[C:/Users/Administrativo/Source/Repos/Firedesk/FireDesk/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2pqpjh17uj
