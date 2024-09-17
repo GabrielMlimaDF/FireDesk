@@ -42,8 +42,18 @@
             </div>
             <div class="form-chamados">
                 <form id="usuarios">
-                        <label for="Assunto">Assunto:</label>
-                        <input type="text" class="input-geral input-chamados" id="Assunto" name="Assunto" maxlength="100" required>
+                        <label for="Nome">Nome Completo*:</label>
+                        <input type="text" class="input-geral input-chamados" id="Nome" name="UsuarioName" maxlength="100" required>
+                        <label for="Email">Email*:</label>
+                        <input type="text" class="input-geral input-chamados" id="Email" name="UsuarioEmail" maxlength="100" required>
+                        <label for="CPF">CPF*:</label>
+                        <input type="text" class="input-geral input-chamados" id="CPF" name="UsuarioCPF" maxlength="100" required>
+                        <div class="toggle">
+                            <span>Ativo*</span>
+                            <input type="checkbox" id="foo" name="Status">
+                            <label for="foo"></label>
+                        </div>
+
                 </form>
             </div>
         </div>

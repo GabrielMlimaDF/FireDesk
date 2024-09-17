@@ -1,5 +1,6 @@
 ﻿using FireDesk.Migrations;
 using FireDesk.Models;
+using FireDesk.Models.Enums;
 using Microsoft.EntityFrameworkCore;
 
 namespace FireDesk.Data
@@ -20,14 +21,24 @@ namespace FireDesk.Data
             modelBuilder.Entity<UsuarioModel>().HasData(
                 new UsuarioModel
                 {
-                    UsuarioId = 1,
+                    UsuarioId = 8,
                     UsuarioCPF = "73282146191",
                     UsuarioEmail = "gabrieldevbrasilia@gmail.com",
                     UsuarioName = "Gabriel Matos Lima",
                     UsuarioSenha = "123",
-                    UsuarioTipo = "Admin",
-                    Status = Models.Enums.UsuarioStatus.Ativo,
-                }
+                    Tipo = UsuarioTipagem.User,
+                    Status = UsuarioStatus.Ativo,
+                },
+                 new UsuarioModel
+                 {
+                     UsuarioId = 20,
+                     UsuarioCPF = "73282146191",
+                     UsuarioEmail = "gabrieldevbrasilia@gmail.com",
+                     UsuarioName = "Gabriel Matos Lima",
+                     UsuarioSenha = "123",
+                     Tipo = UsuarioTipagem.Admin,
+                     Status = UsuarioStatus.Ativo,
+                 }
 
                 );
         }

@@ -51,8 +51,7 @@ a {
     line-height: 1.75rem;
     outline: rgba(0, 0, 0, 0);
     padding: 0.50rem 0.50rem;
-    letter-spacing: 1px;
-    margin: 8px 0px 8px 0px;
+      margin: 8px 0px 8px 0px;
 }
 
 label {
@@ -61,3 +60,68 @@ label {
 .div-flex{
     display:flex;
 }
+/*btn toogle switch*/
+.toggle {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+    border: solid 0.12rem #609;
+    border-radius: 20px;
+    gap: 25px;
+    width:30%;
+}
+
+.toggle > input {
+    display: none;
+}
+
+    .toggle > label {
+        position: relative;
+        display: block;
+        height: 20px;
+        width: 44px;
+        background: #898989;
+        border-radius: 100px;
+        border: solid 0.12rem #fff;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .toggle > label:after {
+        position: absolute;
+        left: -2px;
+        top: -3px;
+        display: block;
+        width: 26px;
+        height: 26px;
+        border-radius: 100px;
+        background: #fff;
+        box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+        content: '';
+        transition: all 0.3s ease;
+    }
+
+    .toggle > label:active:after {
+        transform: scale(1.15, 0.85);
+    }
+
+.toggle > input:checked ~ label {
+    background: #6fbeb500;
+    border:solid 0.12rem #609;
+    
+}
+
+    .toggle > input:checked ~ label:after {
+        left: 20px;
+        background: #609;
+    }
+
+.toggle > input:disabled ~ label {
+    background: #d5d5d5;
+    pointer-events: none;
+}
+
+    .toggle > input:disabled ~ label:after {
+        background: #bcbdbc;
+    }

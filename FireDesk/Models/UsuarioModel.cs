@@ -17,13 +17,14 @@ namespace FireDesk.Models
 
         [Required, MaxLength(11, ErrorMessage = "CPF deve ser válido!")]
         public string? UsuarioCPF { get; set; }
+
         [Required, MaxLength(15, ErrorMessage = "Senha requerida!")]
         public string? UsuarioSenha { get; set; }
 
         [Required(ErrorMessage = "Status sem preencher!")]
         public UsuarioStatus Status { get; set; }
-       
+
         [Required(ErrorMessage = "Tipo sem preencher!")]
-        public string? UsuarioTipo { get; set; }
+        public UsuarioTipagem Tipo { get; set; }
     }
 }
