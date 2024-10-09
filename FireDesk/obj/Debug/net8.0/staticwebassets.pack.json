@@ -141,6 +141,10 @@
       "PackagePath": "staticwebassets\\js\\Usuarios\\FormUsuario.js"
     },
     {
+      "Id": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\wwwroot\\js\\ValidarCpf\\validarCpf.js",
+      "PackagePath": "staticwebassets\\js\\ValidarCpf\\validarCpf.js"
+    },
+    {
       "Id": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

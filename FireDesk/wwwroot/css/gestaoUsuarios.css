@@ -81,3 +81,33 @@
     text-align: -webkit-center;
     padding: 0px 20px;
 }
+
+.tipo-user {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.categoria-select {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+#option-select {
+   /* all: unset;
+    position: absolute;*/
+    inset: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+.btn-select {
+    display: flex;
+    padding: 0.75rem;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: .375rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    gap:5px;
+}
+

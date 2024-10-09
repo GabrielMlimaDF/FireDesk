@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "svcuVWjTQmXyhc61/tg65d61LXTysLN6xfA3s2Ha4Mk=",
+  "Hash": "v7r/jvT0yQbNPn7SM8vukKEu9MicImLTOjV3TGZSoxk=",
   "Source": "FireDesk",
   "BasePath": "_content/FireDesk",
   "Mode": "Default",
@@ -756,6 +756,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Usuarios\\FormUsuario.js"
+    },
+    {
+      "Identity": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\wwwroot\\js\\ValidarCpf\\validarCpf.js",
+      "SourceId": "FireDesk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\wwwroot\\",
+      "BasePath": "_content/FireDesk",
+      "RelativePath": "js/ValidarCpf/validarCpf.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\ValidarCpf\\validarCpf.js"
     },
     {
       "Identity": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

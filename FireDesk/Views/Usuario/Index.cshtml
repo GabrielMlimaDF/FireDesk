@@ -30,39 +30,56 @@
     </div>
 
     <div id="modalOverlay" class="modal-overlay" style="display:none;">
-        <div id="modal" class="container-pop"> 
-        <div class="pop-user">
-            <div class="pop-title">
-                <div class="title-pop">
-                    <h2>Abertura de chamado</h2>
+        <div id="modal" class="container-pop">
+            <div class="pop-user">
+                <div class="pop-title">
+                    <div class="title-pop">
+                        <h2>Criar novo usuario</h2>
+                    </div>
+                    <div class="x-pop">
+                        <img onclick="fecharModal()" src="/img/closeX.svg">
+                    </div>
                 </div>
-                <div class="x-pop">
-                    <img onclick="fecharModal()" src="/img/closeX.svg">
-                </div>
-            </div>
-            <div class="form-chamados">
-                <form id="usuarios">
+                <div class="form-chamados">
+                    <form id="usuarios">
                         <label for="Nome">Nome Completo*:</label>
                         <input type="text" class="input-geral input-chamados" id="Nome" name="UsuarioName" maxlength="100" required>
                         <label for="Email">Email*:</label>
                         <input type="text" class="input-geral input-chamados" id="Email" name="UsuarioEmail" maxlength="100" required>
                         <label for="CPF">CPF*:</label>
-                        <input type="text" class="input-geral input-chamados" id="CPF" name="UsuarioCPF" maxlength="100" required>
-                        <div class="toggle">
-                            <span>Ativo*</span>
-                            <input type="checkbox" id="foo" name="Status">
-                            <label for="foo"></label>
-                        </div>
+                        <input type="text" class="input-geral input-chamados" id="cpf" placeholder="CPF" maxlength="14" oninput="mascaraCPF(this)" name="UsuarioCPF" required>
+                        <p id="mensagem"></p>
+                        <div class="tipo-user">
+                            <div class="toggle">
+                                <span id="ativoInativo">Inativo</span>
+                                <input type="checkbox" id="foo" name="Status">
+                                <label for="foo"></label>
+                            </div>
+                            @* //select *@
+                            <div class="categoria-select">
+                                <input type="checkbox" id="option-select" required="">
+                                
+                            </div>
+                            <div class="btn-select">
+                                <div id="selected-value">Tipo de usuário</div>
+                                <div id="chevrons">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-down" class="lucide lucide-chevron-down"><path d="m6 9 6 6 6-6"></path></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-up" class="lucide lucide-chevron-up"><path d="m18 15-6-6-6 6"></path></svg>
+                                </div>
+                           
+                            </div>
 
-                </form>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
         </div>
     </div>
     <div id="desk-list">
         @Html.Partial("Usuarios_view")
     </div>
 
-    @section Scripts{
+    @section Scripts {
         <script src="~/js/Usuarios/FormUsuario.js"></script>
+        <script src="~/js/ValidarCpf/validarCpf.js"></script>
     }
