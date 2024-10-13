@@ -56,7 +56,7 @@
                                 <label for="foo"></label>
                             </div>
                             @* //select *@
-                            <div class="categoria-select">
+                            <div id="categoria-select">
                                 <input type="checkbox" id="option-select" required="">
                                 <div id="btn-select">
                                     <div id="selected-value">Tipo de usuário</div>
@@ -65,22 +65,18 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="chevron-up" class="lucide lucide-chevron-up"><path d="m18 15-6-6-6 6"></path></svg>
                                     </div>
                                 </div>
-                            </div>
-
-                        </div>
-                        <div id="options-list">
-                            <div class="options-search">
-                                <input type="text" class="input-geral input-search" id="search-select" />
-                                <ul id="options">
-                                   @*  @foreach (var items in ViewBag.Tecnicos)
-                                    { *@
-                                        <li class="option">
-                                            <input type="radio" name="TecnicoId" value="items.TecnicoId" data-label="items.NomeTecnico" />
-                                            <span class="label">items.NomeTecnico</span>
+                                <div id="cx-lista">
+                                    <ul id="ul-options">
+                                        @foreach (var items in ViewBag.tipouser)
+                                        {
+                                        <li class="li-option">
+                                            <input type="radio" name="Tipo" value="@items" data-label="@items" />
+                                            <span class="label">@items</span>
                                             <i data-lucide="check"></i>
                                         </li>
-                                    @* } *@
-                                </ul>
+                                        }
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </form>

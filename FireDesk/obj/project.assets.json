@@ -3079,11 +3079,8 @@
           }
         }
       },
-      "System.Text.Json/8.0.4": {
+      "System.Text.Json/8.0.5": {
         "type": "package",
-        "dependencies": {
-          "System.Text.Encodings.Web": "8.0.0"
-        },
         "compile": {
           "lib/net8.0/System.Text.Json.dll": {
             "related": ".xml"
@@ -8819,10 +8816,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/8.0.4": {
-      "sha512": "bAkhgDJ88XTsqczoxEMliSrpijKZHhbJQldhAmObj/RbrN3sU5dcokuXmWJWsdQAhiMJ9bTayWsL1C9fbbCRhw==",
+    "System.Text.Json/8.0.5": {
+      "sha512": "0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
       "type": "package",
-      "path": "system.text.json/8.0.4",
+      "path": "system.text.json/8.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -8887,7 +8884,7 @@
         "lib/net8.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.8.0.4.nupkg.sha512",
+        "system.text.json.8.0.5.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -9028,23 +9025,23 @@
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.6.2",
       "System.Data.SqlClient >= 4.8.6",
       "System.Formats.Asn1 >= 8.0.1",
-      "System.Text.Json >= 8.0.4"
+      "System.Text.Json >= 8.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrativo\\.nuget\\packages\\": {}
+    "C:\\Users\\gabri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\Firedesk\\FireDesk\\FireDesk.csproj",
       "projectName": "FireDesk",
-      "projectPath": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\FireDesk.csproj",
-      "packagesPath": "C:\\Users\\Administrativo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrativo\\source\\repos\\FireDesk\\FireDesk\\obj\\",
+      "projectPath": "C:\\Users\\gabri\\source\\repos\\Firedesk\\FireDesk\\FireDesk.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabri\\source\\repos\\Firedesk\\FireDesk\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrativo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9134,7 +9131,7 @@
           },
           "System.Text.Json": {
             "target": "Package",
-            "version": "[8.0.4, )"
+            "version": "[8.0.5, )"
           }
         },
         "imports": [

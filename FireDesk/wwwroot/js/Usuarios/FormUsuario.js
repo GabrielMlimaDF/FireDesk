@@ -13,3 +13,9 @@ function statusAtivoInativo() {
     checkbox.checked ? statusSpan.textContent = "Ativo" : statusSpan.textContent = "Inativo";
 }
 btnCheckbox.addEventListener("click", statusAtivoInativo);
+
+//função para mostrar Tipo de usuario
+document.getElementById('option-select').addEventListener('change', function () {
+    const lista = document.getElementById('cx-lista');
+    lista.style.display = this.checked ? 'block' : 'none';
+});

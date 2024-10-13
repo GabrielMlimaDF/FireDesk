@@ -89,8 +89,8 @@
     align-items: center;
     justify-content: space-between;
 }
-
-.categoria-select {
+/*//select datalist personalizado*/
+#categoria-select {
     position: relative;
 }
 
@@ -125,4 +125,59 @@
     #option-select:checked + #btn-select #chevrons
     [data-lucide="chevron-up"] {
         display: block;
+        color:#609;
+    }
+#cx-lista{
+    border:1px solid #609;
+    position:absolute;
+    display:none;
+}
+#ul-options {
+    margin-top: .30rem !important;
+    border-radius: .375rem;
+    border: 1px solid #609;
+    background: #fff;
+}
+.li-option {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .75rem;
+    border-bottom: 1px solid #609;
+    position: relative;
+}
+
+    .li-option label {
+        color: #FBF9FE;
+    }
+
+    .li-option svg {
+        width: 1rem;
+        height: 1rem;
+    }
+
+        .li-option svg:last-child {
+            margin-left: auto;
+            color: #609;
+            display: none;
+        }
+
+    .li-option:has(input:checked), .li-option:hover {
+        border-bottom: 1px solid #8d8d8d;
+        background: #e5d9fa;
+    }
+
+    .li-option:has(input:focus) {
+        outline: 1px solid #609;
+    }
+
+    .li-option:has(input:checked) [data-lucide="check"] {
+        display: block;
+    }
+
+    .li-option input[type="radio"] {
+        all: unset;
+        position: absolute;
+        inset: 0;
+        cursor: pointer;
     }

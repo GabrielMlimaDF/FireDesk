@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FireDesk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0de45cb42d63f74180cd1e8c07c5218c48bd61eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f56fb5c0d2a01d270fba61c0b205d2bf8f9dd5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FireDesk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FireDesk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

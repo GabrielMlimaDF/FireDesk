@@ -1,10 +1,12 @@
 ﻿using FireDesk.Data;
 using FireDesk.Models;
+using FireDesk.Models.Enums;
 using FireDesk.Models.ViewModels;
 using FireDesk.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace FireDesk.Controllers
@@ -24,6 +26,10 @@ namespace FireDesk.Controllers
         [HttpGet]
         public async Task<ActionResult> Index([FromQuery] FiltroModel filtroModel)
         {
+            var listTipo = new List<string>();
+            listTipo.Add("Administrador");
+            listTipo.Add("Usuario");
+            ViewBag.tipouser = listTipo;
             try
             {
                 if (filtroModel.Termo != null)
@@ -80,6 +86,16 @@ namespace FireDesk.Controllers
         public ActionResult Delete(int id)
         {
             return View();
+        }
+
+        public IActionResult Error(string message)
+        {
+            var viewModel = new ErrorViewModel
+            {
+                Message = message,
+                RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
+            };
+            return View(viewModel);
         }
     }
 }
