@@ -14,8 +14,19 @@ function statusAtivoInativo() {
 }
 btnCheckbox.addEventListener("click", statusAtivoInativo);
 
-//função para mostrar Tipo de usuario
-document.getElementById('option-select').addEventListener('change', function () {
-    const lista = document.getElementById('cx-lista');
-    lista.style.display = this.checked ? 'block' : 'none';
+//função para mostrar caixa Tipo de usuario
+const lista = document.getElementById('cx-lista');
+const optionSelect = document.getElementById('option-select');
+optionSelect.addEventListener('change', function () {
+        lista.style.display = this.checked ? 'block' : 'none';
 });
+let inputSelectTipo = document.querySelectorAll('.li-option input'),
+    selectValue = document.getElementById('selected-value')
+
+inputSelectTipo.forEach(input => {
+    input.addEventListener('click', event => {
+        selectValue.textContent = input.dataset.label
+        lista.style.display = 'none'
+        optionSelect.checked = false 
+    })
+})

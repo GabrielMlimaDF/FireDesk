@@ -26,10 +26,18 @@ function validarCPF(cpf) {
     const digito2 = calcularDigito(cpf, 10);
     return cpf[9] == digito1 && cpf[10] == digito2;
 }
+let msgCPF = document.getElementById('mensagem');
+let inputTipo = document.getElementById('foo');
+inputTipo.setAttribute('disabled',true);
 document.getElementById('cpf').addEventListener('blur', function () {
     if (!validarCPF(this.value)) {
-        document.getElementById('mensagem').innerText = 'CPF inválido.';
+        msgCPF.innerText = 'CPF inválido.';
+        msgCPF.style.color = "#ff1010"
+        
+        
     } else {
-        document.getElementById('mensagem').innerText = 'CPF válido!';
-    }
+        msgCPF.innerText = 'CPF válido.';
+        msgCPF.style.color = "#00a50e"
+        inputTipo.setAttribute('disabled',false);
+            }
 });

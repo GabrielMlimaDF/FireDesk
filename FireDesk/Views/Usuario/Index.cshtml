@@ -46,9 +46,9 @@
                         <input type="text" class="input-geral input-chamados" id="Nome" name="UsuarioName" maxlength="100" required>
                         <label for="Email">Email*:</label>
                         <input type="text" class="input-geral input-chamados" id="Email" name="UsuarioEmail" maxlength="100" required>
-                        <label for="CPF">CPF*:</label>
+                        <label id="mensagem"for="CPF">CPF*:</label>
                         <input type="text" class="input-geral input-chamados" id="cpf" placeholder="CPF" maxlength="14" oninput="mascaraCPF(this)" name="UsuarioCPF" required>
-                        <p id="mensagem"></p>
+                        
                         <div class="tipo-user">
                             <div class="toggle">
                                 <span id="ativoInativo">Inativo</span>
@@ -80,6 +80,12 @@
                             </div>
                         </div>
                     </form>
+                </div>
+                <div class="action-flex-user">
+                    <div class="btn-items">
+                        <button onclick="" class="btn-nvc btn-geral before-edit">Cancelar</button>
+                        <button onclick="" class="btn-nvc btn-geral before-add">Salvar</button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -92,6 +92,7 @@
 /*//select datalist personalizado*/
 #categoria-select {
     position: relative;
+    width: 40%;
 }
 
 #option-select {
@@ -122,22 +123,26 @@
     [data-lucide="chevron-down"] {
         display: none;
     }
+
     #option-select:checked + #btn-select #chevrons
     [data-lucide="chevron-up"] {
         display: block;
-        color:#609;
+        color: #609;
     }
-#cx-lista{
-    border:1px solid #609;
-    position:absolute;
-    display:none;
+
+#cx-lista {
+    border: 1px solid #609;
+    position: absolute;
+    display: none;
 }
+
 #ul-options {
     margin-top: .30rem !important;
     border-radius: .375rem;
     border: 1px solid #609;
     background: #fff;
 }
+
 .li-option {
     display: flex;
     align-items: center;
@@ -181,3 +186,21 @@
         inset: 0;
         cursor: pointer;
     }
+.action-flex-user{
+    display:flex;
+    flex-direction:column;
+    background-color:#609;
+}
+.btn-items {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 2px;
+    justify-content: space-between;
+}
+.btn-nvc{
+   border:solid 1px #ffff;
+   width:50%;
+   justify-content:center;
+
+}
