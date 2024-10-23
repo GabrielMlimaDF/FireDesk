@@ -1,5 +1,4 @@
-﻿
-// Função para mostrar o modal e a sobreposição
+﻿// Função para mostrar o modal e a sobreposição
 function mostrarModal() {
     document.getElementById("modalOverlay").style.display = "block";
     var modal = document.getElementById("modal");
@@ -63,10 +62,12 @@ inputElement.addEventListener('input', (e) => {
         document.getElementById("options").appendChild(p);
     }
 })
-//função para envio de formulário 
+//função para envio de formulário
 let btnSubmit = document.getElementById("btn-submit");
 const url = "/Actions/CreateTicket"
+
 function save() {
+    debugger;
     fecharModal();
     $.ajax({
         url: url,
@@ -74,6 +75,7 @@ function save() {
         data: $('#desk').serialize(),
     })
         .done(function (data) {
+            debugger;
             if (data.erro == true) {
                 const divEspecifica = document.getElementById('modal');
                 const novoHTML = '<div id="b1" class="box-sucess">' +

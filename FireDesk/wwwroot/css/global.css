@@ -2,7 +2,8 @@
     font-family: Roboto !important;
     color: #141414 !important;
     background: #f5f5f5 !important;
-   }
+}
+
 h1,
 h2,
 h3,
@@ -36,6 +37,7 @@ a {
 .btn-geral {
     padding: 10px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .input-geral {
@@ -51,14 +53,15 @@ a {
     line-height: 1.75rem;
     outline: rgba(0, 0, 0, 0);
     padding: 0.50rem 0.50rem;
-      margin: 8px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
 }
 
 label {
     display: block;
 }
-.div-flex{
-    display:flex;
+
+.div-flex {
+    display: flex;
 }
 /*btn toogle switch*/
 .toggle {
@@ -69,12 +72,12 @@ label {
     border: solid 0.12rem #609;
     border-radius: 20px;
     gap: 25px;
-    width:30%;
+    width: 30%;
 }
 
-.toggle > input {
-    display: none;
-}
+    .toggle > input {
+        display: none;
+    }
 
     .toggle > label {
         position: relative;
@@ -88,40 +91,39 @@ label {
         transition: all 0.3s ease;
     }
 
-    .toggle > label:after {
-        position: absolute;
-        left: -2px;
-        top: -3px;
-        display: block;
-        width: 26px;
-        height: 26px;
-        border-radius: 100px;
-        background: #fff;
-        box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
-        content: '';
-        transition: all 0.3s ease;
+        .toggle > label:after {
+            position: absolute;
+            left: -2px;
+            top: -3px;
+            display: block;
+            width: 26px;
+            height: 26px;
+            border-radius: 100px;
+            background: #fff;
+            box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+            content: '';
+            transition: all 0.3s ease;
+        }
+
+        .toggle > label:active:after {
+            transform: scale(1.15, 0.85);
+        }
+
+    .toggle > input:checked ~ label {
+        background: #6fbeb500;
+        border: solid 0.12rem #609;
     }
 
-    .toggle > label:active:after {
-        transform: scale(1.15, 0.85);
+        .toggle > input:checked ~ label:after {
+            left: 20px;
+            background: #609;
+        }
+
+    .toggle > input:disabled ~ label {
+        background: #d5d5d5;
+        pointer-events: none;
     }
 
-.toggle > input:checked ~ label {
-    background: #6fbeb500;
-    border:solid 0.12rem #609;
-    
-}
-
-    .toggle > input:checked ~ label:after {
-        left: 20px;
-        background: #609;
-    }
-
-.toggle > input:disabled ~ label {
-    background: #d5d5d5;
-    pointer-events: none;
-}
-
-    .toggle > input:disabled ~ label:after {
-        background: #bcbdbc;
-    }
+        .toggle > input:disabled ~ label:after {
+            background: #bcbdbc;
+        }

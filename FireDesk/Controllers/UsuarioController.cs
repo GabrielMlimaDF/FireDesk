@@ -26,9 +26,9 @@ namespace FireDesk.Controllers
         [HttpGet]
         public async Task<ActionResult> Index([FromQuery] FiltroModel filtroModel)
         {
-            var listTipo = new List<string>();
-            listTipo.Add("Administrador");
-            listTipo.Add("Usuario");
+            var listTipo = new List<UsuarioTipagem>();
+            listTipo.Add(UsuarioTipagem.Admin);
+            listTipo.Add(UsuarioTipagem.User);
             ViewBag.tipouser = listTipo;
             try
             {
@@ -63,8 +63,7 @@ namespace FireDesk.Controllers
 
         // POST: UsuarioController/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(UsuarioModel usuarioModel)
         {
             try
             {
